@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  background-color: #395B64;
+  overflow-x: hidden;
+  font-family: 'Kiona', sans-serif;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  padding-top: 200px;
+  background-color: #395B64;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kiona', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Kiona', sans-serif;
+}
+
+ul {
+  font-size: 1rem;
+  font-family: 'Kiona', sans-serif;
+}
+
+footer {
+  background-color: #2C3333;
+  padding: 30px;
+  color: #E7F6F2;
+  text-align: right;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: #395B64;
+}
+
+.coreybrand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #E7F6F2;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #E7F6F2;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Kiona', sans-serif;
+  color: #E7F6F2;
+}
+
+.intro-header {
+  text-align: left;
+  color: #E7F6F2;
+  font-size: 200px;
+  text-shadow: 3px 3px black;
+}
+
+.analyst {
+  color: #395B64;
+}
+
+.intro-header-small {
+  text-align: right;
+  font-size: 3rem;
+}
+
+#section1 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/bluedark.svg");
+  aspect-ratio: 900/600;
+  background-color: #;
+  color: black;
+  max-height: 900px;
+  min-height: 400px;
+  padding: 0px 10vw;
+}
+
+#section2 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/darkblue.svg");
+  aspect-ratio: 900/600;
+  background-color: #;
+  color: black;
+  max-height: 700px;
+  min-height: 400px;
+  padding: 0px 10vw;
+}
+
+.me {
+  text-align: center;
+  color: #E7F6F2;
+  margin-top: 10px;
+}
+
+#testimonials-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  margin-bottom: 10%;
+}
+
+.carousel-inner {
+  max-width: 500px;
+  min-height: 350px;
+  max-height: 350px;
+}
+
+.aboutmeheader {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+
+.myworkheader {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+
+.aboutmepara {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skill-list {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hr1 {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+
+.hr2 {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 20px;
+}
+
+#section3 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/hex2.svg");
+  aspect-ratio: 900/600;
+  max-height: 600px;
+  min-height: 200px;
+  padding: 0px 10vw;
+  color: #E7F6F2;
+}
+
+.contact-me {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact-div {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 100px;
+}
+
+@media (max-width: 1028px) {
+  .intro {
+    padding-top: 80px;
+  }
+
+  @media (max-width: 1028px) {
+    .intro-header {
+      font-size: 75px;
+    }
+
+    @media (max-width: 1028px) {
+      .intro-header-small {
+        font-size: 20px;
+      }
+
+      @media (max-width: 1028px) {
+        .aboutmepara {
+          font-size: 70%;
+        }
+
+        @media (max-width: 1028px) {
+          .skill-list {
+            font-size: 70%;
+          }
+
+          @media (max-width: 1028px) {
+            .contact-div {
+              padding: 10px 0;
+            }
