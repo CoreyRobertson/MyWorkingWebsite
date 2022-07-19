@@ -88,6 +88,7 @@ footer {
   max-height: 900px;
   min-height: 400px;
   padding: 0px 10vw;
+  margin-bottom: -1px;
 }
 
 #section2 {
@@ -101,6 +102,8 @@ footer {
   max-height: 700px;
   min-height: 400px;
   padding: 0px 10vw;
+  margin-bottom: -1px;
+
 }
 
 .me {
@@ -160,10 +163,12 @@ footer {
   background-position: center;
   background-size: cover;
   background-image: url("images/hex2.svg");
-  max-height: 600px;
-  min-height: 200px;
+  max-height: 700px;
+  min-height: 400px;
   padding: 0px 10vw;
   color: #E7F6F2;
+  margin-bottom: -1px;
+
 }
 
 .contact-me {
@@ -188,7 +193,7 @@ footer {
 
   @media (max-width: 1028px) {
     .intro-header {
-      font-size: 75px;
+      font-size: 70px;
     }
 
     @media (max-width: 1028px) {
