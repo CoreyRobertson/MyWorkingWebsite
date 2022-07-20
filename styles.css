@@ -86,7 +86,7 @@ footer {
   background-color: #;
   color: black;
   max-height: 900px;
-  min-height: 400px;
+  min-height: 600px;
   padding: 0px 10vw;
   margin-bottom: -1px;
 }
@@ -99,11 +99,10 @@ footer {
   background-image: url("images/darkblue.svg");
   background-color: #;
   color: black;
-  max-height: 700px;
-  min-height: 400px;
+  max-height: 900px;
+  min-height: 600px;
   padding: 0px 10vw;
   margin-bottom: -1px;
-
 }
 
 .me {
@@ -114,16 +113,15 @@ footer {
 
 #testimonials-carousel {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 10%;
-  margin-bottom: 10%;
+  padding: 0 10% 0 10%;
+  height: 500px;
 }
 
-.carousel-inner {
-  max-width: 500px;
-  min-height: 350px;
-  max-height: 350px;
+.carousel-item {
+  padding: 15%;
+  font-size: 150%;
+  color: #E7F6F2;
 }
 
 .aboutmeheader {
@@ -131,19 +129,19 @@ footer {
   padding-bottom: 40px;
 }
 
-.myworkheader {
-  font-size: 3rem;
-  padding-bottom: 40px;
+.about-text {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .aboutmepara {
   text-align: center;
-  padding: 20px 0;
+  min-height: 200px;
 }
 
 .skill-list {
   text-align: center;
-  padding: 20px 0;
+  min-height: 200px;
 }
 
 .hr1 {
@@ -164,11 +162,10 @@ footer {
   background-size: cover;
   background-image: url("images/hex2.svg");
   max-height: 700px;
-  min-height: 400px;
+  min-height: 600px;
   padding: 0px 10vw;
   color: #E7F6F2;
   margin-bottom: -1px;
-
 }
 
 .contact-me {
@@ -188,12 +185,12 @@ footer {
 
 @media (max-width: 1028px) {
   .intro {
-    padding-top: 80px;
+    padding-top: 150px;
   }
 
   @media (max-width: 1028px) {
     .intro-header {
-      font-size: 70px;
+      font-size: 50px;
     }
 
     @media (max-width: 1028px) {
@@ -202,16 +199,45 @@ footer {
       }
 
       @media (max-width: 1028px) {
-        .aboutmepara {
-          font-size: 70%;
+        .carousel-item {
+          font-size: 135%;
+          padding: 10% 15% 5% 15%;
         }
 
         @media (max-width: 1028px) {
-          .skill-list {
-            font-size: 70%;
+          #section2 {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: url("images/darkblue.svg");
+            background-color: #;
+            color: black;
+            max-height: 900px;
+            min-height: 700px;
+            padding: 0px 10vw;
+            margin-bottom: -1px;
           }
 
           @media (max-width: 1028px) {
-            .contact-div {
-              padding: 10px 0;
+            #testimonials-carousel {
+              display: flex;
+              justify-content: center;
+              padding: 0 10% 0 10%;
+              height: 640px;
             }
+
+          @media (max-width: 1028px) {
+            .aboutmepara {
+              font-size: 70%;
+            }
+
+            @media (max-width: 1028px) {
+              .skill-list {
+                font-size: 70%;
+              }
+
+              @media (max-width: 1028px) {
+                .contact-div {
+                  padding: 10px 0;
+                }
