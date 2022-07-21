@@ -11,11 +11,6 @@ section {
   flex-direction: column;
 }
 
-footer {
-  padding-top: 200px;
-  background-color: #395B64;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kiona', sans-serif;
   font-weight: bold;
@@ -29,6 +24,10 @@ p {
 ul {
   font-size: 1rem;
   font-family: 'Kiona', sans-serif;
+}
+
+button {
+  margin: 10px;
 }
 
 footer {
@@ -131,7 +130,7 @@ footer {
 
 .about-text {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .aboutmepara {
@@ -142,6 +141,7 @@ footer {
 .skill-list {
   text-align: center;
   min-height: 200px;
+  padding: 0 0 0 0px;
 }
 
 .hr1 {
@@ -170,19 +170,19 @@ footer {
 
 .contact-me {
   text-align: center;
-  padding-top: 100px;
+  padding: 100px 0 30px 0;
 }
 
 .contact-div {
   padding: 100px 0;
+}
+
+.button-div {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
-
-.btn {
-  padding: 100px;
-}
-
 @media (max-width: 1028px) {
   .intro {
     padding-top: 150px;
